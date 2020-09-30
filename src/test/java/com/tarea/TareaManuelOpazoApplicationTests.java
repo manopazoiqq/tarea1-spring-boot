@@ -1,0 +1,11 @@
+package com.tarea;
+
+
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class TareaManuelOpazoApplicationTests {
+
+	
+
+}
