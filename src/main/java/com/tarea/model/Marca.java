@@ -26,4 +26,36 @@ public class Marca {
 	@Size(max = 50, message = "Valor ingresado no puede superar los 50 caracteres")
 	@Column(name = "ciudad", length = 50)
 	private String ciudad;
+
+	public Integer getId_marca() {
+		return id_marca;
+	}
+
+	public void setId_marca(Integer id_marca) {
+		this.id_marca = id_marca;
+	}
+
+	public String getDescripcion() {
+		return descripcion;
+	}
+
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+
+	public String getDireccion() {
+		return direccion;
+	}
+
+	public void setDireccion(String direccion) {
+		this.direccion = direccion;
+	}
+
+	public String getCiudad() {
+		return ciudad;
+	}
+
+	public void setCiudad(String ciudad) {
+		this.ciudad = ciudad;
+	}
 }

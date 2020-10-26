@@ -30,4 +30,36 @@ public class Producto {
 	@Column(name = "valor_producto", length=9)
 	private Integer valor_producto;
 
+	public Integer getId_producto() {
+		return id_producto;
+	}
+
+	public void setId_producto(Integer id_producto) {
+		this.id_producto = id_producto;
+	}
+
+	public Marca getMarca() {
+		return marca;
+	}
+
+	public void setMarca(Marca marca) {
+		this.marca = marca;
+	}
+
+	public String getDescripcion() {
+		return descripcion;
+	}
+
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+
+	public Integer getValor_producto() {
+		return valor_producto;
+	}
+
+	public void setValor_producto(Integer valor_producto) {
+		this.valor_producto = valor_producto;
+	}
+
 }

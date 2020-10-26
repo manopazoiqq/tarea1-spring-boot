@@ -34,6 +34,46 @@ public class Venta {
 	private Integer costo;
 	
 	private LocalDateTime fecha_venta; // el localdatetime no lleva notación porque la gestiona directamente JAVA...
+
+	public Integer getId_venta() {
+		return id_venta;
+	}
+
+	public void setId_venta(Integer id_venta) {
+		this.id_venta = id_venta;
+	}
+
+	public Vendedor getVendedor() {
+		return vendedor;
+	}
+
+	public void setVendedor(Vendedor vendedor) {
+		this.vendedor = vendedor;
+	}
+
+	public Cliente getCliente() {
+		return cliente;
+	}
+
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
+
+	public Integer getCosto() {
+		return costo;
+	}
+
+	public void setCosto(Integer costo) {
+		this.costo = costo;
+	}
+
+	public LocalDateTime getFecha_venta() {
+		return fecha_venta;
+	}
+
+	public void setFecha_venta(LocalDateTime fecha_venta) {
+		this.fecha_venta = fecha_venta;
+	}
 	
 
 }

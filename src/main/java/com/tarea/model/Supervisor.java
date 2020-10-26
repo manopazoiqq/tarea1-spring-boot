@@ -29,4 +29,36 @@ public class Supervisor {
 	@Column(name ="tel_supervisor", length=50)
 	private String tel_supervisor;
 
+	public Integer getId_supervisor() {
+		return id_supervisor;
+	}
+
+	public void setId_supervisor(Integer id_supervisor) {
+		this.id_supervisor = id_supervisor;
+	}
+
+	public String getNombre_supervisor() {
+		return nombre_supervisor;
+	}
+
+	public void setNombre_supervisor(String nombre_supervisor) {
+		this.nombre_supervisor = nombre_supervisor;
+	}
+
+	public String getDir_supervisor() {
+		return dir_supervisor;
+	}
+
+	public void setDir_supervisor(String dir_supervisor) {
+		this.dir_supervisor = dir_supervisor;
+	}
+
+	public String getTel_supervisor() {
+		return tel_supervisor;
+	}
+
+	public void setTel_supervisor(String tel_supervisor) {
+		this.tel_supervisor = tel_supervisor;
+	}
+
 }
